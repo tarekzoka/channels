@@ -10,7 +10,7 @@ rm -rf /etc/tuxbox/*.xml
 
 wait
 
-wget "https://raw.githubusercontent.com/tarekzoka/CHANNELL/main/ciefp-motor.tar.gz"
+wget "https://raw.githubusercontent.com/tarekzoka/channels/main/ciefp-motor.tar.gz"
 
 
 tar -xzf ciefp-motor.tar.gz  -C /

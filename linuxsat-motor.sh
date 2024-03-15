@@ -10,7 +10,7 @@ rm -rf /etc/tuxbox/*.xml
 
 wait
 
-wget "https://raw.githubusercontent.com/tarekzoka/CHANNELL/main/linuxsat-motor.tar.gz"
+wget "https://raw.githubusercontent.com/tarekzoka/channels/main/linuxsat-motor.tar.gz"
 
 
 tar -xzf linuxsat-motor.tar.gz  -C /
