@@ -1,4 +1,4 @@
-#!/bin/shh
+#!/bin/sh
 ##
 echo ""
 
