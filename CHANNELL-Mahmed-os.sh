@@ -4,13 +4,13 @@ echo
 
 rm -f /etc/defaultsat.tar.gz && rm -f /etc/enigma2/lamedb && rm -f /etc/enigma2/*.tv && rm -f /etc/enigma2/*.radio && rm -f /etc/enigma2/*.del && rm -f /etc/enigma2/*.sh && wait
 
-wget "https://raw.githubusercontent.com/tarekzoka/CHANNELL/main/CHANNELL-Mahmed-os.tar.gz"
+wget "https://raw.githubusercontent.com/tarekzoka/channels/main/mohamed-os-motor.tar.gz"
 
 
-tar -xzf CHANNELL-Mahmed-os.tar.gz  -C /
+tar -xzf mohamed-os-motor.tar.gz-C /
 
 wait
-rm -f /tmp/CHANNELL-Mahmed-os.tar.gz
+rm -f /tmp/mohamed-os-motor.tar.gz
 echo "   UPLOADED BY  >>>>   TAREK_TT "   
 sleep 4;                                                                                                                  
 echo ". >>>>         RESTARING     <<<<"
