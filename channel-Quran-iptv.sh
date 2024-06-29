@@ -1,15 +1,6 @@
 #!/bin/sh
 ##
 echo ""
-
-rm -rf /etc/enigma2/lamedb
-rm -rf /etc/enigma2/*list
-rm -rf /etc/enigma2/*.tv
-rm -rf /etc/enigma2/*.radio
-rm -rf /etc/tuxbox/*.xml
-
-wait
-
 wget "https://raw.githubusercontent.com/tarekzoka/channels/main/QURAN.tar.gz"
 
 tar -xzf QURAN.tar.gz  -C /
