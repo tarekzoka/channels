@@ -1,15 +1,21 @@
 #!/bin/sh
-##
-echo ""
-wget "https://raw.githubusercontent.com/tarekzoka/channels/main/QURAN.tar.gz"
+#
 
-tar -xzf QURAN.tar.gz  -C /
+wget -O /tmp/.tar.gz "https://raw.githubusercontent.com/tarekzoka/channels/main/QURAN.tar.gz"
 
-rm -f /tmp/QURAN.tar.gz
+tar -xzf /tmp/*.tar.gz -C /
 
-echo "   UPLOADED BY  >>>>   TAREK_HANFY"   
-sleep 2
-echo
-init 3
+rm -r /tmp/.tar.gz.tar.gz
 
-exit 0
+wait
+
+by tarek hanfy
+
+killall -9 enigma2
+
+sleep 2;
+
+wait
+
+exit 0  
+
