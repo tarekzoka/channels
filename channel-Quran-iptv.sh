@@ -1,7 +1,7 @@
 #!/bin/sh
 #
 
-wget -O /tmp/.tar.gz "https://raw.githubusercontent.com/tarekzoka/channels/main/QURAN.tar.gz"
+wget -O /tmp/QURAN.tar.gz "https://raw.githubusercontent.com/tarekzoka/channels/main/QURAN.tar.gz"
 
 tar -xzf /tmp/*.tar.gz -C /
 
